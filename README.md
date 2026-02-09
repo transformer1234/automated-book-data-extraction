@@ -21,4 +21,7 @@ This project demonstrates skills in:
 pip install -r requirements.txt
 cd src 
 streamlit run dashboard.py
+````
+## ⚠️ Disclaimer
+This project is for educational purposes only and respects website robots.txt and terms of service.
 
