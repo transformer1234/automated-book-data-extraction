@@ -1,10 +1,10 @@
-# 📚 Books to Scrape — Web Scraping & Data Dashboard Project
+# 📚 Automated Book Data Collection Pipeline
 
-A complete end-to-end **data science project** that scrapes book data from  
+A complete end-to-end **data science project** that extracts book data from  
 [Books to Scrape](http://books.toscrape.com), cleans the dataset, and builds an **interactive dashboard** using **Streamlit + Plotly**.
 
 This project demonstrates skills in:
-- Web scraping  
+- Automated web data extraction  
 - Data cleaning & preprocessing  
 - Exploratory data analysis  
 - Dashboard development
@@ -15,6 +15,10 @@ This project demonstrates skills in:
 - Scikit-learn
 - streamlit, plotly
 - beautifulsoup4
+
+## 📌 Use Case
+- Data collection for analytics
+- Dataset generation for recommendation systems
 
 ## How to run this project
 ````bash
