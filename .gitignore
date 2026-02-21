@@ -5,4 +5,4 @@ __pycache__/
 .streamlit/secrets.toml
 notebooks/.ipynb_checkpoints/
 venv/
-data/
+data/`
