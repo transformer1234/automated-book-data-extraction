@@ -17,8 +17,7 @@ This project demonstrates skills in:
 - beautifulsoup4
 
 ## How to run this project
-````bash
+```bash
 pip install -r requirements.txt
 cd src 
 streamlit run dashboard.py
-
