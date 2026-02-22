@@ -50,9 +50,9 @@ def scrape_all_books():
 
 
 def save_data_to_csv(data):
-    os.makedirs("../data/raw", exist_ok=True)  # Ensure folder exists
+    os.makedirs("./data/raw", exist_ok=True)  # Ensure folder exists
     df = pd.DataFrame(data)
-    df.to_csv("../data/raw/books_raw.csv", index=False)
+    df.to_csv("./data/raw/books_raw.csv", index=False)
     print("\nSaved scraped data to data/raw/books_raw.csv")
 
 

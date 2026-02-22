@@ -11,8 +11,8 @@ RATING_MAP = {
 
 
 def clean_data():
-    input_path = "../data/raw/books_raw.csv"
-    output_dir = "../data/processed"
+    input_path = "./data/raw/books_raw.csv"
+    output_dir = "./data/processed"
     output_path = f"{output_dir}/books_clean.csv"
 
     if not os.path.exists(input_path):

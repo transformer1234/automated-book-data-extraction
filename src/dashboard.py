@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-DATA_PATH = "../data/processed/books_clean.csv"
+DATA_PATH = "./data/processed/books_clean.csv"
 
 # -----------------------------
 # Load Data
@@ -15,7 +15,7 @@ df = load_data()
 
 st.title("📚 Books Dashboard")
 st.write("Interactive dashboard built with **Streamlit** and **Plotly**.")
-st.write(f"Total {len(df)} books📚")
+st.write(f"Total {len(df)} books 📚")
 
 # -----------------------------
 # Search Feature
