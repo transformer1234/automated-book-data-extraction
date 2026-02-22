@@ -13,8 +13,9 @@ def load_data():
 
 df = load_data()
 
-st.title("📚 Books Dashboard — Books to Scrape")
+st.title("📚 Books Dashboard")
 st.write("Interactive dashboard built with **Streamlit** and **Plotly**.")
+st.write(f"Total {len(df)} books📚")
 
 # -----------------------------
 # Search Feature

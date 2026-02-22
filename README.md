@@ -17,7 +17,19 @@ This project demonstrates skills in:
 - beautifulsoup4
 
 ## How to run this project
+### Dependencies
 ```bash
 pip install -r requirements.txt
-cd src 
-streamlit run dashboard.py
+```
+### Data extraction
+```bash
+python src/scraper.py
+```
+### Data cleaning
+```bash
+python src/clean_data.py
+```
+### Dashboard
+```bash
+streamlit run src/dashboard.py
+```
