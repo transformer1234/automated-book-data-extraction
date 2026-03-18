@@ -1,5 +1,13 @@
 # 📚 Automated Book Data Collection & Data Dashboard Project
 
+![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/dashboard-Streamlit-red?logo=streamlit)
+![Plotly](https://img.shields.io/badge/viz-Plotly-3F4F75?logo=plotly)
+![BeautifulSoup](https://img.shields.io/badge/scraping-BeautifulSoup4-green)
+![Pandas](https://img.shields.io/badge/data-Pandas-150458?logo=pandas)
+![Pipeline](https://img.shields.io/badge/pipeline-end--to--end-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A complete end-to-end **data science project** that extracts book data from  
 [Books to Scrape](http://books.toscrape.com), cleans the dataset, and builds an **interactive dashboard** using **Streamlit + Plotly**.
 
